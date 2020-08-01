@@ -30,7 +30,6 @@ exports.createScheduleForUser = async (req, res) => {
 exports.createSimpleSchedule = async (req, res) => {
   try {
     const { email, scheduleTime, message } = req.body;
-    console.log(`==================${scheduleTime}========================`);
 
     const scheduleAgenda = agenda.create("Email Scheduling", {
       email: email,

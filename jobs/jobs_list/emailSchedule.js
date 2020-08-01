@@ -10,7 +10,6 @@ module.exports = (agenda) => {
       subject: "An Email by Scheduled Emails",
       message,
     });
-    console.log(` ==========================================================${data.message}`);
     done();
   });
 };
