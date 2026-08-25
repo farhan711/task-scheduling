@@ -1,6 +1,8 @@
+
+
 # task-scheduling
 
-This has nodejs application used to schedule task(s) [Here I have used to send email at given time]. Using [Agenda]('https://github.com/agenda/agenda') as scheduler for sending email at given time.
+This has nodejs application used to schedule task(s) [Here I have used to send email at given time]. Using [Agenda](https://github.com/agenda/agenda) as scheduler for sending email at given time.
 This could be set recurring, one time, or periodic execution of tasks.
 (Note: If you're using Agenda then, must follow file strcuture and Agenda decalration for turning it on, or it will create an issue of not resuming jobs when server restarts.)
 
